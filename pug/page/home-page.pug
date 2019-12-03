@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+html(lang="en")
+  include ../layout/head/head.pug
+
+  body
+    include ../layout/body/navbar.pug
+
+    include ../layout/body/header.pug
+
+    main.main
+      //section-about start
+      section.section-about
+        .container
+          .row
+            .col-md-4.order-sm-2
+              .text-box   
+                h2.heading-secondary who we are?
+                p.paragraph.u-margin-bottom-huge Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque numquam natus unde facilis nobis animi maxime explicabo quibusdam, hic at amet, itaque repellat. Obcaecati, fugiat? Adipisci laboriosam in nemo similique.
+                a.btn.btn-1(href="#") Read More
+            .col-md-8.order-sm-1
+              img(src="../assets/images/desktop-about-img.png" alt="img" class="img-fluid")
+      //section-about end
+      //section-events start
+      section.section-events
+        .container
+          .row
+            .col-12
+              h2.heading-secondary.float-left last events
+              a.btn.btn-2.float-right(href="#") see all
+          .row
+            .col-lg-4.col-md-6.mb-md-5
+              .card
+                img.card-img-top(src='../assets/images/card-img.png' alt='Card image cap')
+                .card-body
+                  .card-text-box
+                    i.fas.fa-map-marker-alt.icon.location-icon
+                    h3.heading-tertiary Kafr Elsheikh,Academia
+                  p.card-text.paragraph
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                  .card-date-box
+                    span.event-date 26 July, 2019
+            .col-lg-4.col-md-6.mb-md-5
+              .card
+                img.card-img-top(src='../assets/images/card-img.png' alt='Card image cap')
+                .card-body
+                  .card-text-box
+                    i.fas.fa-map-marker-alt.icon.location-icon
+                    h3.heading-tertiary Kafr Elsheikh,Academia
+                  p.card-text.paragraph
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                  .card-date-box
+                    span.event-date 26 July, 2019
+            .col-lg-4.col-md-6
+              .card
+                img.card-img-top(src='../assets/images/card-img.png' alt='Card image cap')
+                .card-body
+                  .card-text-box
+                    i.fas.fa-map-marker-alt.icon.location-icon
+                    h3.heading-tertiary Kafr Elsheikh,Academia
+                  p.card-text.paragraph
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                  .card-date-box
+                    span.event-date 26 July, 2019  
+      //section-events end
+      //section-partnership start
+      section.section-partnership
+        .container
+          h2.heading-secondary our partnership
+          .row
+            .col-lg-8.m-auto
+              .row
+                .col-4.img-col
+                  img.img-fluid(src="../assets/images/partnership-img-1.png" alt="partnership image")
+                .col-8.text-box-col
+                  .text-box
+                    h3.heading-tertiary Lorem ipsum
+                    p.paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque illo voluptates consequatur eius quae omnis quibusdam perferendis facilis nemo reiciendis saepe deleniti amet, commodi repudiandae nesciunt, dignissimos ducimus. Eius, nulla.
+              .row
+                .col-4.img-col
+                  img.img-fluid(src="../assets/images/partnership-img-2.png" alt="partnership image")
+                .col-8.text-box-col
+                  .text-box
+                    h3.heading-tertiary Lorem ipsum
+                    p.paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque illo voluptates consequatur eius quae omnis quibusdam perferendis facilis nemo reiciendis saepe deleniti amet, commodi repudiandae nesciunt, dignissimos ducimus. Eius, nulla.
+              .row
+                .col-4.img-col
+                  img.img-fluid(src="../assets/images/partnership-img-3.png" alt="partnership image")
+                .col-8.text-box-col
+                  .text-box
+                    h3.heading-tertiary Lorem ipsum
+                    p.paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque illo voluptates consequatur eius quae omnis quibusdam perferendis facilis nemo reiciendis saepe deleniti amet, commodi repudiandae nesciunt, dignissimos ducimus. Eius, nulla.
+      //section-partnership end
+      //section-last articles start
+      section.section-articles
+        .container
+          .row
+            .col-12
+              h2.heading-secondary.float-left last articles
+              a.btn.btn-2.float-right(href="#") see all
+          .row
+            .col-lg-4.col-md-6
+              .text-box
+                h3.heading-tertiary lorem ipsum
+                p.paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eos nihil deserunt ipsam harum velit officia? Molestias sequi voluptatem a vero laborum illum animi quaerat atque? Ea obcaecati a similique.
+                <hr>
+                span.article-date 26-02-2019
+                span.article-time 2:30am
+            .col-lg-5.offset-lg-3.col-md-6.order-first.order-sm-1
+              img.article-img.img-fluid(src="../assets/images/article-img-1.png", alt="article img 1")
+          .row
+            .col-lg-5.order-2.offset-lg-2.col-md-6
+              .text-box
+                h3.heading-tertiary lorem ipsum
+                p.paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eos nihil deserunt ipsam harum velit officia? Molestias sequi voluptatem a vero laborum illum animi quaerat atque? Ea obcaecati a similique.
+                <hr>
+                span.article-date 26-02-2019
+                span.article-time 2:30am
+            .col-lg-5.order-1.col-md-6
+              img.article-img.img-fluid(src="../assets/images/article-img-2.png", alt="article img 1")
+          .row
+            .col-lg-4.col-md-6
+              .text-box
+                h3.heading-tertiary lorem ipsum
+                p.paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eos nihil deserunt ipsam harum velit officia? Molestias sequi voluptatem a vero laborum illum animi quaerat atque? Ea obcaecati a similique.
+                <hr>
+                span.article-date 26-02-2019
+                span.article-time 2:30am
+            .col-lg-5.offset-lg-3.col-md-6.order-first.order-sm-1
+              img.article-img.img-fluid(src="../assets/images/article-img-3.png", alt="article img 1")
+      //section-last articles end
+      //section-volunteers start
+      section.section-volunteers
+        .container
+          h2.heading-secondary.float-left.mb-5 volunteers
+          a.btn.btn-2(href="#").float-right see all
+          .clearfix
+          .row
+            .col-md-3.mb-5.mb-sm-0
+              img.volunteer-img.w-100(src="../assets/images/volunteer-1.png", alt="volunteer 1")
+            .col-md-3.mb-5.mb-sm-0
+              img.volunteer-img.w-100(src="../assets/images/volunteer-2.png", alt="volunteer 1")
+            .col-md-3.mb-5.mb-sm-0
+              img.volunteer-img.w-100(src="../assets/images/volunteer-3.png", alt="volunteer 1")
+            .col-md-3.mb-5.mb-sm-0
+              img.volunteer-img.w-100(src="../assets/images/volunteer-4.png", alt="volunteer 1")
+      //section/volunteers end
+
+    include ../layout/body/footer.pug
+
+    include ../layout/body/body-assets.pug

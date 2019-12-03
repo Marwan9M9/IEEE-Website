@@ -1,0 +1,26 @@
+.card {
+  position: relative;
+  &-text-box {
+    .location-icon {
+      color: $color-main-2;
+      font-size: 2.3rem;
+      display: inline-block;
+    }
+
+    .heading-tertiary {
+      display: inline-block;
+      color: $color-main-2;
+      padding-left: 1rem;
+    }
+  }
+
+  .card-date-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .7rem 1.5rem;
+    color: $color-white;
+    background: $color-main-2;
+    font-size: 1.6rem;
+  }
+}

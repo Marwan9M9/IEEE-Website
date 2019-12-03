@@ -1,0 +1,16 @@
+{
+  "name": "ieee-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss CSS/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "pug": "^2.0.4"
+  }
+}

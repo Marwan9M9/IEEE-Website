@@ -1,0 +1,36 @@
+@mixin lineHeader {
+  content: "\2212";
+  display: inline-block;
+  transform: scale(30, .5) ;
+  text-align: center;
+  color: $color-light-grey-3;
+  position: absolute;
+  left: 50%;
+
+  @include respond(tab-land) {
+    transform: scale(15, .5) ;
+  }
+
+  @include respond(tab-port) {
+    transform: scale(10, .5);
+  }
+
+  @include respond(phone) {
+    transform: scale(0);
+  }
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+      @media only screen and (max-width: 37.5em) { @content };    //600px
+  }
+  @if $breakpoint == tab-port {
+      @media only screen and (max-width: 61.93em) { @content };     //991px
+  }
+  @if $breakpoint == tab-land {
+      @media only screen and (max-width: 82.5em) { @content };    //1320px
+  }
+  @if $breakpoint == big-desktop {
+      @media only screen and (min-width: 112.5em) { @content };    //1800
+  }
+}

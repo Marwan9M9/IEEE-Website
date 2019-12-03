@@ -1,0 +1,94 @@
+.section-about {
+  padding: 4rem 0;
+
+  .text-box {
+    /*.heading-secondary::after {
+      content: "-";
+      display: block;
+      text-align: center;
+      font-size: 4rem;
+      color: $color-main-1;
+    }*/
+
+    .heading-secondary {
+      @include respond(tab-port) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.section-events {
+  padding: 4rem 0;
+  position: relative;
+
+  .heading-secondary::after {
+    @include lineHeader;
+  }
+}
+
+.section-partnership {
+  padding: 1rem 0;
+  background: $color-light-grey-2;
+
+  .heading-secondary {
+    margin-bottom: 3rem;
+  }
+
+  .img-col {
+    padding-right: 0;
+  }
+
+  .text-box-col {
+    padding-left: 0;
+  }
+
+  .text-box {
+    padding: 2rem;
+    padding-right: 3rem;
+    background: $color-white;
+    border-right: .4rem solid $color-main-2;
+    height: 100%;
+
+    .heading-tertiary {
+      color: $color-main-1;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.section-articles {
+  padding: 4rem 0;
+
+  .heading-secondary::after {
+    @include lineHeader;
+  }
+
+  .text-box {
+    padding: 2rem;
+
+    .heading-tertiary {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .article-date,
+  .article-time {
+    color: $color-main-2;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .article-date {
+    margin-right: 2rem;
+  }
+}
+
+.section-volunteers {
+  .heading-secondary::after {
+    @include lineHeader;
+  }
+  
+  padding: 4rem 0;
+}
