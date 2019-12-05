@@ -1,11 +1,11 @@
 .volunteer-img-container {
-  height: 25rem;
+  height: 20rem;
   background-size: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
 
   @include respond(small-tab) {
-    height: 20rem;
+    height: 18rem;
   }
 
   @include respond(phone) {
