@@ -2,7 +2,7 @@
   &:link,
   &:visited {
     color: $color-white;
-    background: $color-main-2;
+    background: $color-main-3;
     font-size: 1.4rem;
     font-weight: 700;
     border-radius: 0;
@@ -14,18 +14,18 @@
 
   &:hover,
   &:active {
-    color: $color-main-2;
+    color: $color-main-3;
     background: $color-white;
-    border: 1px solid $color-main-2;
+    border: 1px solid $color-main-3;
   }
 }
 
 .btn-2 {
   &:link,
   &:visited {
-    color: $color-main-2;
+    color: $color-main-3;
     background: $color-white;
-    border: 1px solid $color-main-2;
+    border: 1px solid $color-main-3;
     font-size: 1.4rem;
     font-weight: 700;
     border-radius: 0;
@@ -38,14 +38,14 @@
   &:hover,
   &:active {
     color: $color-white;
-    background: $color-main-2;
+    background: $color-main-3;
     border: 1px solid transparent;
   }
 }
 
 .button-styling {
   color: $color-white;
-  background: $color-main-2;
+  background: $color-main-3;
   border: 1px solid transparent;
   font-size: 1.4rem;
   font-weight: 700;
@@ -54,8 +54,8 @@
   text-transform: capitalize;
 
   &:hover {
-    color: $color-main-2;
+    color: $color-main-3;
     background: $color-white;
-    border: 1px solid $color-main-2;
+    border: 1px solid $color-main-3;
   }
 }

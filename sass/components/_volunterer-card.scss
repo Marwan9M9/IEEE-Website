@@ -1,8 +1,8 @@
 .volunteer-img-container {
-  height: 20rem;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  height: 20rem;
 
   @include respond(small-tab) {
     height: 18rem;
@@ -49,7 +49,7 @@
       105deg,
       transparent 0%,
       transparent 60%,
-      rgba($color-main-2, .6) 60%);
+      rgba($color-main-3, .6) 60%);
 
       .text-box {
         display: block;
@@ -59,14 +59,18 @@
 
   &-1 {
     background-image: url("../assets/images/volunteer-1.png");
+    background-position: center;
   }
   &-2 {
     background-image: url("../assets/images/volunteer-2.png");
+    background-position: center;
   }
   &-3 {
     background-image: url("../assets/images/volunteer-3.png");
+    background-position: center;
   }
   &-4 {
     background-image: url("../assets/images/volunteer-4.png");
+    background-position: center;
   }
 }

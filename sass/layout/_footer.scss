@@ -23,13 +23,11 @@
     }
   }
 
-  .form-group .form-control {
-    border-radius: 0;
-    outline-style: solid;
-    outline-color: transparent;
+  .footer-post-container {
+    transition: all .2s;
   }
 
-  .form-group textarea {
-    color: $color-light-grey-1;
+  .footer-post-container:hover {
+    transform: scale(1.06);
   }
 }

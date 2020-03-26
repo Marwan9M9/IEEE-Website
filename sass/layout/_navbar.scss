@@ -27,6 +27,10 @@
       font-size: 1.5rem;
       padding-bottom: .15rem;
       border-bottom: 2.5px solid transparent;
+
+      @include respond(phone) {
+        border-bottom: none;
+      }
     }
 
     &:hover,
@@ -34,6 +38,11 @@
     &:focus {
       transform: scale(1.15);
       border-bottom: 2.5px solid $color-main-1;
+
+      @include respond(phone) {
+        transform: scale(1.03, 1.05);
+        border-bottom: none;
+      }
     }
   }
 }
