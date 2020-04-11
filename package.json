@@ -12,5 +12,8 @@
   "dependencies": {
     "node-sass": "^4.13.0",
     "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
